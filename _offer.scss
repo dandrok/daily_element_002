@@ -1,0 +1,23 @@
+.offer {
+  border: solid 2px rgb(243, 243, 243);
+  border-radius: $radius;
+  padding: 30px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  justify-content: space-between;
+  div {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      font-size: $font_a;
+      span {
+        font-size: $font_h1;
+        font-weight: bold;
+      }
+    }
+  }
+}

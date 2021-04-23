@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+button {
+  background-color: #6d6de6;
+  height: 3rem;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.offer {
+  border: solid 2px #f3f3f3;
+  border-radius: 5px;
+  padding: 30px;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 240px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer div h2 {
+  margin-bottom: 1rem;
+}
+
+.offer div p {
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+
+.offer div p span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.block {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.block div {
+  background-color: #6d6de6;
+  width: 600px;
+  height: 620px;
+}
+
+body {
+  background-color: #e6e6ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#container section {
+  background-color: #fff;
+  padding: 3rem;
+  height: 560px;
+  width: 880px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+#container section .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+#container section .header h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#container section .header a {
+  font-size: 0.75rem;
+  color: #6d6de6;
+}
+
+.offers-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

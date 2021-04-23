@@ -1,0 +1,14 @@
+.block {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  div {
+    background-color: $color_sec;
+    width: 600px;
+    height: 620px;
+  }
+}
