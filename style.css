@@ -16,6 +16,12 @@ button {
   border: none;
   color: #fff;
   border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #9999ed;
 }
 
 .offer {
